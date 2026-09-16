@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Student Project documentation build configuration file, created by
+# Student-Project documentation build configuration file, created by
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Student Project'
+project = u'Student-Project'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -185,7 +185,7 @@ latex_elements = {
 latex_documents = [
     ('index',
      'Student Placement Project.tex',
-     u'Student Project Documentation',
+     u'Student-Project Documentation',
      u"Your name (or your organization/company/team)", 'manual'),
 ]
 
@@ -215,7 +215,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'Student Placement Project', u'Student Project Documentation',
+    ('index', 'Student Placement Project', u'Student-Project Documentation',
      [u"Your name (or your organization/company/team)"], 1)
 ]
 
@@ -229,8 +229,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'Student Placement Project', u'Student Project Documentation',
-     u"Your name (or your organization/company/team)", 'Student Project',
+    ('index', 'Student Placement Project', u'Student-Project Documentation',
+     u"Your name (or your organization/company/team)", 'Student-Project',
      'A short description of the project.', 'Miscellaneous'),
 ]
 

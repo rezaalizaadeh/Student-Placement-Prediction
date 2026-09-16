@@ -1,4 +1,4 @@
-Student Project
+Student-Project
 ==============================
 
 A short description of the project.
