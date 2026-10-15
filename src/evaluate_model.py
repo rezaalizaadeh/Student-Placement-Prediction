@@ -41,9 +41,15 @@ def evaluate() -> dict:
 
     metrics = {
         "accuracy": float(accuracy_score(y_test, y_pred)),
-        "precision": float(precision_score(y_test, y_pred, zero_division=0)),
-        "recall": float(recall_score(y_test, y_pred, zero_division=0)),
-        "f1": float(f1_score(y_test, y_pred, zero_division=0)),
+        "precision": float(
+            precision_score(y_test, y_pred, pos_label="Yes", zero_division=0)
+        ),
+        "recall": float(
+            recall_score(y_test, y_pred, pos_label="Yes", zero_division=0)
+        ),
+        "f1": float(
+            f1_score(y_test, y_pred, pos_label="Yes", zero_division=0)
+        ),
     }
 
     reports_dir = project_root / "reports"

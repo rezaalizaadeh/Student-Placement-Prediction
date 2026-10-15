@@ -90,3 +90,13 @@ target/
 .venv/
 models/*.pkl
 mlruns/
+
+# Airflow local runtime
+airflow_env/
+airflow.cfg
+airflow.db-*
+logs/
+simple_auth_manager_passwords.json.generated
+
+# Generated evaluation output
+reports/evaluation_metrics.json

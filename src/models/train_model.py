@@ -62,7 +62,11 @@ def train():
         joblib.dump(model, models_dir / "model.pkl")
 
         # Log model artifact in MLflow
-        mlflow.sklearn.log_model(model, "model")
+        mlflow.sklearn.log_model(
+            model,
+            "model",
+            skops_trusted_types=["sklearn.tree._tree.Tree"]
+        )
 
         print(f"Model trained on student placement dataset! Accuracy: {accuracy}")
 
