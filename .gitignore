@@ -100,3 +100,4 @@ simple_auth_manager_passwords.json.generated
 
 # Generated evaluation output
 reports/evaluation_metrics.json
+reports/placement_monitoring_report.html

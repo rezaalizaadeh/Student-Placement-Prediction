@@ -12,3 +12,4 @@ fastapi
 uvicorn
 joblib
 mlflow
+evidently==0.7.235
