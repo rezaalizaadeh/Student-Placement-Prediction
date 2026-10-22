@@ -13,3 +13,4 @@ uvicorn
 joblib
 mlflow
 evidently==0.7.235
+prometheus-client==0.26.0
